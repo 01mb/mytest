@@ -55,11 +55,19 @@
     flex-direction: row;
 }
 
+.rightdiv{
+    background-image: url("tab.jpg");
+    background-size: cover;
+}
+
 .box{
     margin: 30px;
     height: 280px;
     width: 450px;
-    border: 1px solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: gray;
+    text-align: justify;
 }
 
 @media only screen and (max-width:768px){
@@ -101,7 +109,7 @@
         margin: 30px;
         height: 250px;
         width: 350px;
-        border: 1px solid;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
 }
