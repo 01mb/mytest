@@ -285,6 +285,41 @@
     font-size: 18px;
 }
 
+.container7 > h3{
+   text-align: center;
+   margin-top: 70px;
+   font-size: 15px;
+}
+
+.container7{
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+
+.social{
+    display: flex;
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.app{
+    margin: 10px;
+}
+
+.app:hover{
+    cursor: pointer;
+}
+
+.container7 > hr{
+    width: 90%;
+    margin-top: 10px;
+}
+
+.container7 > h4{
+    margin-top: 20px;
+}
+
 @media only screen and (max-width:768px){
     .title button{
         width: 190px;
