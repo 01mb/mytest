@@ -32,6 +32,29 @@
     padding-top: 10px;
 }
 
+.container2 h3{
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container2 span{
+    color: #ac407b;
+}
+
+.leftdiv{
+    height: 250px;
+    width: 300px;
+    border: 1px solid;
+}
+
+.righttdiv{
+    height: 250px;
+    width: 300px;
+    border: 1px solid;
+}
+
 @media only screen and (max-width:768px){
     .title button{
         width: 190px;
@@ -41,5 +64,11 @@
         color: black;
     }
 
+    .container1{
+        background-image: url("cctv.jpg");
+        height: 50vh;
+        width: 100%;
+        background-size: cover;
+    }
 
 }
