@@ -316,4 +316,19 @@
         flex-direction: column;
     }
 
+    .icon1{
+        display: flex;
+        margin-top: 43px;
+    }
+    
+    .icon2{
+        display: flex;
+    }
+    .icon3{
+        display: flex;
+    }
+    .icon4{
+        display: flex;
+    }
+
 }
