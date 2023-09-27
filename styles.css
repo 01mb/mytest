@@ -32,15 +32,22 @@
     padding-top: 10px;
 }
 
+
 .container2 h3{
     margin-top: 20px;
     font-size: 25px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
 }
 
 .container2 span{
     color: #ac407b;
+}
+
+.container2{
+    display: grid;
+    place-items: center;
 }
 
 .parent{
@@ -49,18 +56,9 @@
 }
 
 .box{
-    margin: 10px;
-}
-
-.leftdiv{
-    height: 250px;
-    width: 300px;
-    border: 1px solid;
-}
-
-.righttdiv{
-    height: 250px;
-    width: 300px;
+    margin: 30px;
+    height: 280px;
+    width: 450px;
     border: 1px solid;
 }
 
@@ -90,8 +88,20 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
+    .container2{
+        display: grid;
+        place-items: center;
+    }
+
     .parent{
         flex-direction: column;
+    }
+
+    .box{
+        margin: 30px;
+        height: 250px;
+        width: 350px;
+        border: 1px solid;
     }
 
 }
