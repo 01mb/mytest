@@ -73,6 +73,7 @@
 
 .container3{
     background-color: #e5e3e3;
+    height: 70vh;
 }
 
 
@@ -136,7 +137,7 @@
 
 .container4{
     background-image: url("office1.webp");
-    height: 100vh;
+    height: 60vh;
     background-size: cover;
     position: relative;
 }
@@ -150,6 +151,11 @@
     color: white;
     font-size: 30px;
 }
+
+.container4 h3 span{
+    color: #ac407b;
+}
+
 
 @media only screen and (max-width:768px){
     .title button{
@@ -211,19 +217,19 @@
     }
 
     .container4{
-        height: 50vh;
+        height: 40vh;
         background-size: cover;
         position: relative;
     }
 
     .container4 h3{
         position: absolute;
-        top: 30%;
+        top: 40%;
         left: 50%;
         transform: translate(-50%, -50%);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: white;
-        font-size: 20px;
+        font-size: 25px;
     }
 
 }
