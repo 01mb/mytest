@@ -134,6 +134,23 @@
     text-align: justify;
 }
 
+.container4{
+    background-image: url("office1.webp");
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+.container4 h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
 @media only screen and (max-width:768px){
     .title button{
         width: 190px;
@@ -191,6 +208,22 @@
     .logo4{
         font-size: 80px;
         margin-top: -10px;
+    }
+
+    .container4{
+        height: 50vh;
+        background-size: cover;
+        position: relative;
+    }
+
+    .container4 h3{
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-size: 20px;
     }
 
 }
