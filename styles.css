@@ -183,4 +183,14 @@
         gap: 20px;
     }
 
+    .logo1{
+    font-size: 120px;
+    margin-top: -25px;
+    }
+
+    .logo4{
+        font-size: 80px;
+        margin-top: -10px;
+    }
+
 }
