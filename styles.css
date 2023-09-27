@@ -305,7 +305,6 @@
     }
 
     .use1{
-        border: 1px solid;
         margin: 30px;
         height: 250px;
         width: 350px;
@@ -318,7 +317,7 @@
 
     .icon1{
         display: flex;
-        margin-top: 43px;
+        margin-top: 40px;
     }
     
     .icon2{
@@ -329,6 +328,10 @@
     }
     .icon4{
         display: flex;
+    }
+
+    .icon{
+        font-size: 38px;
     }
 
 }
