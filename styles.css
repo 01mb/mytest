@@ -156,6 +156,33 @@
     color: #ac407b;
 }
 
+.container5{
+    display: grid;
+    place-items: center;
+}
+
+.container5 h3{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+}
+
+.container5 h3 span{
+    color: #ac407b;
+}
+
+.parent3{
+    display: flex;
+    flex-direction: row;
+}
+
+.use1{
+    border: 1px solid;
+    margin: 30px;
+    height: 280px;
+    width: 450px;
+}
+
 
 @media only screen and (max-width:768px){
     .title button{
@@ -230,6 +257,11 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: white;
         font-size: 25px;
+    }
+
+    .parent3{
+        display: flex;
+        flex-direction: column;
     }
 
 }
