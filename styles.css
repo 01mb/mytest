@@ -71,4 +71,14 @@
         background-size: cover;
     }
 
+    .title{
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
 }
