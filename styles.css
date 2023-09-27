@@ -25,17 +25,21 @@
     height: 35px;
     margin-top: 20px;
     cursor: pointer;
-    color: white;
+    color: black;
 }
 
 .title h3{
     padding-top: 10px;
 }
 
-/* @media only screen and (max-width:768px){
-    .container1{
-        height: 100vh;
-        width: 100%;
-        background-size: cover;
+@media only screen and (max-width:768px){
+    .title button{
+        width: 190px;
+        height: 25px;
+        margin-top: 20px;
+        cursor: pointer;
+        color: black;
     }
-} */
+
+
+}
