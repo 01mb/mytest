@@ -356,7 +356,7 @@ body{
     .container1{
         background-image: url("cctv.jpg");
         height: 50vh;
-        width: 100%;
+        width: auto;
         background-size: cover;
     }
 
@@ -373,11 +373,11 @@ body{
     .container2{
         display: grid;
         place-items: center;
-        width:100%
+        width: auto;
     }
 
     .container3{
-        width: 100%;
+        width: auto;
     }
 
     .parent{
@@ -412,7 +412,7 @@ body{
         height: 60vh;
         background-size: cover;
         position: relative;
-        width: 100%;
+        width: auto;
     }
 
     .container4 h3{
@@ -466,10 +466,10 @@ body{
     }
 
     .container5{
-        width: 100%;
+        width: auto;
     }
     .container6{
-        width: 100%;
+        width: auto;
     }
     
     .container7 > h3{
@@ -481,7 +481,7 @@ body{
      .container7{
          display: grid;
          place-items: center;
-         width: 100%;
+         width: auto;
      }
      
      .social{
