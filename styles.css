@@ -349,6 +349,11 @@
     .container2{
         display: grid;
         place-items: center;
+        width:100%
+    }
+
+    .container3{
+        width: 100%;
     }
 
     .parent{
@@ -383,6 +388,7 @@
         height: 60vh;
         background-size: cover;
         position: relative;
+        width: 100%;
     }
 
     .container4 h3{
@@ -435,7 +441,13 @@
         flex-direction: column;
     }
 
-
+    .container5{
+        width: 100%;
+    }
+    .container6{
+        width: 100%;
+    }
+    
     .container7 > h3{
         text-align: center;
         margin-top: 70px;
