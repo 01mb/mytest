@@ -114,12 +114,12 @@ body{
 }
 
 .logo1{
-    font-size: 130px;
-    margin-top: -25px;
+    font-size: 120px;
+    margin-top: -35px;
 }
 
 .logo2{
-    font-size: 90px;
+    font-size: 80px;
     margin-top: -18px;
 }
 
@@ -129,7 +129,7 @@ body{
 }
 
 .logo4{
-    font-size: 90px;
+    font-size: 70px;
     margin-top: -10px;
 }
 
@@ -172,7 +172,7 @@ body{
 }
 
 .container5 h3 span{
-    color: #ac407b;
+    color: white;
 }
 
 .parent3{
@@ -214,6 +214,7 @@ body{
 .text{
     width: 100%;
     font-size: 18px;
+    color: white;
 }
 
 .text > h5{
@@ -313,7 +314,17 @@ body{
     margin: 10px;
 }
 
+#link{
+    text-decoration: none;
+    color: black;
+}
+
 .app:hover{
+    cursor: pointer;
+    color: white;
+}
+
+#link:hover{
     cursor: pointer;
     color: white;
 }
@@ -366,7 +377,7 @@ body{
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
-        color: blue;
+        color: white;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
