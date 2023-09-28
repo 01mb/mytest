@@ -5,12 +5,14 @@
 
 body{
     font-family: 'Quicksand', sans-serif;
+    width: 100%;
+    height: 100%;
 }
 
 .container1{
     background-image: url("https://i.postimg.cc/VvWQyyNP/cctv.webp");
     height: 100vh;
-    width: fit-content;
+    width: 100%;
     background-size: cover;
 }
 
@@ -54,7 +56,7 @@ body{
 .container2{
     display: grid;
     place-items: center;
-    width: fit-content;
+    width: 100%;
 }
 
 .parent{
@@ -79,7 +81,7 @@ body{
 
 .container3{
     background-color: #e5e3e3;
-    width: fit-content;
+    width: 100%;
     /* height: 70vh; */
 }
 
@@ -146,7 +148,7 @@ body{
     height: 60vh;
     background-size: cover;
     position: relative;
-    width: fit-content;
+    width: 100%;
 }
 
 .container4 h3{
@@ -163,7 +165,7 @@ body{
 }
 
 .container5{
-    width: fit-content;
+    width: 100%;
     display: grid;
     place-items: center;
     background-color: #4158D0;
@@ -232,7 +234,7 @@ body{
 }
 
 .container6{
-    width: fit-content;
+    width: 100%;
     display: grid;
     place-items: center;
     background-color: #e5e3e3;
@@ -304,7 +306,7 @@ body{
 .container7{
     display: grid;
     place-items: center;
-    width: fit-content;
+    width: 100%;
     background-color: #4158D0;
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
@@ -382,7 +384,7 @@ body{
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
-        color: red;
+        color: greenyellow;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
