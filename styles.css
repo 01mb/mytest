@@ -368,7 +368,7 @@ body{
         height: 25px;
         margin-top: 20px;
         cursor: pointer;
-        color: black;
+        color: white;
     }
 
     .container1{
@@ -384,8 +384,8 @@ body{
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
-        color: greenyellow;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: blue;
+        font-size: 14px;
     }
 
     .container2{
@@ -394,8 +394,22 @@ body{
         width: auto;
     }
 
+    .leftdiv{
+        font-size: 14px;
+    }
+
+    .rightdiv{
+        height: 260px;
+        width: 400px;
+        background-repeat: no-repeat;
+    }
+
     .container3{
         width: auto;
+    }
+
+    .container3 > h3{
+        font-size: 20px;
     }
 
     .parent{
@@ -406,7 +420,6 @@ body{
         margin: 30px;
         height: 250px;
         width: 350px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
     .parent2{
@@ -416,13 +429,17 @@ body{
         gap: 20px;
     }
 
+    .description{
+        font-size: 10px;
+    }
+
     .logo1{
-    font-size: 120px;
+    font-size: 110px;
     margin-top: -25px;
     }
 
     .logo4{
-        font-size: 80px;
+        font-size: 70px;
         margin-top: -10px;
     }
 
@@ -440,7 +457,7 @@ body{
         transform: translate(-50%, -50%);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: white;
-        font-size: 25px;
+        font-size: 27px;
     }
 
     .parent3{
@@ -485,6 +502,7 @@ body{
 
     .container5{
         width: auto;
+        font-size: 20px;
     }
     .container6{
         width: auto;
@@ -500,6 +518,10 @@ body{
          display: grid;
          place-items: center;
          width: auto;
+     }
+
+     .container7 > h3{
+         color: white;
      }
      
      .social{
@@ -519,11 +541,13 @@ body{
      .container7 > hr{
          width: 90%;
          margin-top: 10px;
+         color: white;
      }
      
      .container7 > h4{
          margin-top: 20px;
          font-size: 12px;
+         color: white;
      }
     
 
