@@ -8,7 +8,7 @@ body{
 }
 
 .container1{
-    background-image: url("cctv.jpg");
+    background-image: url("https://i.postimg.cc/VvWQyyNP/cctv.webp");
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -62,7 +62,7 @@ body{
 }
 
 .rightdiv{
-    background-image: url("tab.jpg");
+    background-image: url("https://i.postimg.cc/mg5xWyTk/tab.webp");
     background-size: cover;
     border-radius: 10px;
 }
@@ -140,7 +140,7 @@ body{
 }
 
 .container4{
-    background-image: url("office1.webp");
+    background-image: url("https://i.postimg.cc/MKzJ7Gs6/office1.webp");
     height: 60vh;
     background-size: cover;
     position: relative;
@@ -187,7 +187,7 @@ body{
 }
 
 .leftimgdiv{
-    background-image: url("cctv2.jpg");
+    background-image: url("https://i.postimg.cc/t4T0cMQ8/cctv2.webp");
     background-size: cover;
 }
 
@@ -354,7 +354,7 @@ body{
     }
 
     .container1{
-        background-image: url("cctv.jpg");
+        background-image: url("https://i.postimg.cc/VvWQyyNP/cctv.webp");
         height: 50vh;
         width: auto;
         background-size: cover;
@@ -366,7 +366,7 @@ body{
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
-        color: yellow;
+        color: white;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
