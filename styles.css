@@ -29,8 +29,7 @@ body{
     margin-top: 20px;
     cursor: pointer;
     color: white;
-    background-color: #4158D0;
-    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-color: #ac407b;
     border: none;
     border-radius: 15px;
 }
@@ -111,7 +110,7 @@ body{
 .logo{
     width: 40%;
     text-align: center;
-    color: #4158D0;
+    color: #ac407b;
 }
 
 .logo1{
@@ -260,6 +259,7 @@ body{
     cursor: pointer;
     background-color: #4158D0;
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    color: white;
 }
 
 .card > div{
@@ -292,6 +292,7 @@ body{
    text-align: center;
    margin-top: 70px;
    font-size: 15px;
+   width: 80%;
 }
 
 .container7{
@@ -325,6 +326,23 @@ body{
 .container7 > h4{
     margin-top: 20px;
 }
+
+.btn {
+    animation: shimmer 3s linear infinite;
+    animation-delay: 1.2s;
+    background-image: linear-gradient(-65deg, rgba(255, 255, 255, 0) 46%, rgba(255, 255, 255, .8) 50%, rgba(255, 255, 255, .8) 42%, rgba(255, 255, 255, 0) 56%);
+    background-size: 400% 110%;
+  }
+
+  @keyframes shimmer {
+    0% {
+      background-position: 100% 50%;
+    }
+
+    30% {
+      background-position: 0% 50%;
+    }
+  }
 
 @media only screen and (max-width:768px){
     .title button{
