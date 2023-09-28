@@ -301,6 +301,7 @@ body{
    margin-top: 70px;
    font-size: 15px;
    width: 80%;
+    color: white;
 }
 
 .container7{
@@ -343,6 +344,7 @@ body{
 
 .container7 > h4{
     margin-top: 20px;
+    color: white;
 }
 
 .btn {
