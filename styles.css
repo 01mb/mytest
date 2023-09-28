@@ -384,7 +384,7 @@ body{
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
-        color: blue;
+        color: black;
         font-size: 14px;
     }
 
@@ -395,7 +395,7 @@ body{
     }
 
     .leftdiv{
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .rightdiv{
@@ -434,12 +434,17 @@ body{
     }
 
     .logo1{
-    font-size: 110px;
+    font-size: 70px;
     margin-top: -25px;
     }
 
-    .logo4{
+    .logo2, .logo3{
         font-size: 70px;
+    }
+    
+
+    .logo4{
+        font-size: 50px;
         margin-top: -10px;
     }
 
