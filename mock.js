@@ -1,4 +1,5 @@
 {
+{
     id: "1",
     name: "Pizza Hut",
     dish: "Pizza, Burger, Rolls",
@@ -13,4 +14,5 @@
     rating: "3",
     time: "40",
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUV93qIdDkOSuBIQr1kZEJR9Of2WqVs_L_iQ&s"
+}
 }
